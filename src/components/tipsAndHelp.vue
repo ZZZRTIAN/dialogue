@@ -8,11 +8,15 @@
             </div>
         </div>
 
-        <div class="help-modal">
+        <div class="help-modal" v-show="false">
             <div class="help-close"></div>
             <div class="help-content">
                 <p>11111111</p>
             </div>
+        </div>
+
+        <div class="tips-modal">
+            <p>11111111</p>
         </div>
     </div>
 </template>
@@ -44,6 +48,7 @@
         font-size: px2rem(30);
         height: px2rem(70);
         line-height: px2rem(70);
+        margin-bottom: px2rem(20);
 
         .cell-left-help{
             color: #ffffff;
@@ -138,5 +143,12 @@
         }
     }
 
+    .tips-modal{
+        margin: 0 auto;
+        width: 100%;
+        max-width: px2rem(560);
+        background: #F5EDE2;
+        border-radius: px2rem(22);
+    }
 
 </style>

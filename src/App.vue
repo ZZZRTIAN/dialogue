@@ -46,7 +46,6 @@
           'Today you are flying to Shanghai from Los Angeles; connecting through Tokyo. You have one piece of luggage to check in and one bag to carry on.',
           'At the airport, you need to check in the luggage and get your boaring pass.'
         ],
-
       }
     },
     mounted(){
